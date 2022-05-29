@@ -1,6 +1,7 @@
 # MovieNator: A Movie-Recommender
-A web-application for user-item Movie Recommendation Engine using Collaborative Filtering By matrix factorizations algorithm.
-The recommendation based on the underlying idea that is if two persons have both liked certain common movies, then we can recommend a movie to the user that they haven't watched but the other user liked.    
+A web-application for user-item Movie Recommendation Engine using Collaborative Filtering by the matrix factorizations algorithm.
+The recommendation is based on the underlying idea that is if two persons have both liked certain common movies, then we can recommend a movie to the user that they haven't watched but the other user liked.
+  The model basically stores the ratings of the users in a matrix for every movie. Now for every recommendation, the model tries to search for a similar user in the database, who had given similar ratings as out current user. After this, any movies rated well by the newly found user is recommended to the current user. 
 
 ### Technologies Used
 
