@@ -21,10 +21,10 @@
         </div>
         <!-- Right Movie Info -->
         <div class="col-sm-offset-1 col-sm-4 col-md-4">
-            <h1>{{movies.title}}</h1>
-            <h3><small>{{movies.genre}}</small></h3>
-        	<h1><small>Have you watch ?</small></h1>
-            <h3><small>Please rate to get recommendation </small></h3>
+            <h1 style="color: white">{{movies.title}}</h1>
+            <h3><small>Genres: {{movies.genre}}</small></h3>
+        	<h1><small>Have you watched?</small></h1>
+            <h3><small>Please rate to get recommendations:</small></h3>
             {% if messages %}
             <ul class="messages">
             {% for message in messages %}
