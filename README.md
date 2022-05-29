@@ -1,14 +1,14 @@
-# MovieNator: A Movie-Recommender-System
+# MovieNator: A Movie-Recommender
 A web-application for user-item Movie Recommendation Engine using Collaborative Filtering By matrix factorizations algorithm.
 The recommendation based on the underlying idea that is if two persons have both liked certain common movies, then we can recommend a movie to the user that they haven't watched but the other user liked.    
 
 ### Technologies Used
 
 #### Web Technologies
-Html , Css , JavaScript , Bootstrap , Django
+HTML, CSS, JavaScript, Bootstrap, Django
 
 #### Machine Learning Library In Python3
-Numpy , Pandas , Scipy
+Numpy, Pandas, Scipy
 
 #### Database
 SQLite
@@ -25,14 +25,12 @@ virtualenv
 
 Extract zip file in your computer
 
-Open terminal/cmd promt
+Open terminal/command prompt
 
-Goto that Path
-
-Example
+Go to that Path. Eg:
 
 ```
-cd ~/Destop/MovieNator
+cd ~/MovieNator
 ```
 Create a new virtual environment on that directory
 
